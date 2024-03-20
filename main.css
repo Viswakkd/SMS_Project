@@ -1,0 +1,33 @@
+*{
+
+}
+html{
+    font-size: 22px;
+}
+
+body{
+    /*background-color:#FFFEFA;*/
+    background-color: #CEEEEE;
+    color: black;
+    border: 1px solid #175;
+    height: 100vh;;
+}
+
+#h1_title{
+    /*background-color:rgb(27,126,90);*/
+    background-color: #175;
+    color: whitesmoke;
+    text-align: center;
+}
+
+table,th,tr,td{
+    border: 1px solid #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+p{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
