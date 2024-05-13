@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="author" content="Viswa">
+        <title>My web page</title>
+        <link rel="icon" href="sal.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="headBar">
+                <div>
+                    <p id="h1_title">Sales Creation</p>
+                </div>
+            </div>
+            <div class="master">
+                <div class="mas-col-1 mas-col">
+                    <div class="mas-inside-col">
+                        <label class="partylbl" for="partyName">Bill To :</label>
+                        <input type="text" name="partyName" id="partyName" placeholder="Party Name" required>
+                    </div>
+                    <div class="mas-inside-col">
+                        <label for="partyAdd1"></label>
+                        <input type="text" name="partyAdd1" id="partyAdd1">
+                    </div>
+                    <div class="mas-inside-col">
+                        <label for="partyAdd2"></label>
+                        <input type="text" name="partyAdd2" id="partyAdd2">
+                    </div>
+                    <div class="mas-inside-col">
+                        <label for="partyAdd3"></label>
+                        <input type="text" name="partyAdd3" id="partyAdd3">
+                    </div>
+                    <div class="mas-inside-col">
+                        <label class="partyCell" for="partyCell">Cell   :</label>
+                        <input type="text" name="partyCell" id="partyCell">
+                    </div>
+                </div>
+                <div class="mas-col-2 mas-col">
+                    <div class="mas-inside-col inside-2"><p></p></div>
+                    <div class="mas-inside-col inside-2"><p></p></div>
+                    <div class="mas-inside-col inside-2"><p></p></div>
+                    <div class="mas-inside-col inside-2"><p></p></div>
+                    <div class="mas-inside-col inside-2">
+                        <label class="lblBillState" for="billState">Bill State</label>
+                        <input type="text" name="billState" id="billState">
+                    </div>
+                </div>
+                <div class="mas-col-3 mas-col">
+                    <div class="mas-inside-col">
+                        <label class="lblBillNo" for="billNo">Bill No</label>
+                        <input type="text" name="billNo" id="billNo">
+                    </div>
+                    <div class="mas-inside-col">
+                        <label class="lblBillDate" for="billDate">Bill Date</label>
+                        <input type="text" name="billDate" id="billDate">
+                    </div>
+                    <div class="mas-inside-col"><p></p></div>
+                    <div class="mas-inside-col"><p></p></div>
+                    <div class="mas-inside-col"><p></p></div>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <th>Sno</th>
+                        <th>Item Name</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>MRP</th>
+                        <th>Amount</th>
+                    </thead>
+                    <tbody contenteditable="true">
+                        <tr>
+                            <td>1</td>
+                            <td>Item1</td>
+                            <td>5</td>
+                            <td>200</td>
+                            <td>250</td>
+                            <td>1250</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Item2</td>
+                            <td>3</td>
+                            <td>150</td>
+                            <td>175</td>
+                            <td>450</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="footer">
+                <div class="inside-footer footer-col-2">
+                    <div class="inside-footer-row">
+                        <label for="gAmt">Gross Amount</label>
+                        <label class="sec-col" id="gAmt">0.00</label>
+                    </div>
+                    <div class="inside-footer-row">
+                        <label for="disAmt">Discount</label>
+                        <label class="sec-col" id="disAmt">0.00</label>
+                    </div>
+                    <div class="inside-footer-row">
+                        <label for="netAmt">Net Amount</label>
+                        <label class="sec-col" id="netAmt">0.00</label>
+                    </div>                    
+                </div>
+                <div class="inside-footer footer-col-3">
+                    <!--<div>-->
+                        <button>Save</button>
+                    <!--</div>
+                    <div>-->
+                        <button>Exit</button>
+                    <!--</div>>-->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
