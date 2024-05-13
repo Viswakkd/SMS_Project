@@ -1,0 +1,163 @@
+
+body{
+    /*background-color:#FFFEFA;*/
+    background-color: #CEEEEE;
+    color: black;
+    border: 2px solid #175;
+
+    margin: 0;
+    padding: 0;
+
+    /*grid-template-rows: repeat(6,100px);*/
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+}
+.headBar{
+    background-color: #175;
+    color: whitesmoke;
+    text-align: center;
+    height: 8vh;
+    /*box-sizing: border-box;
+    /*z-index: 1000;
+/*    width: 100%;
+    position: fixed;*/
+    box-shadow: 0px 5px 2px grey;
+}
+
+.headBar p{
+    display: inline-block;
+    margin: 0;
+    padding: 0.5%;
+    font-size: xx-large;
+}
+
+.master{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 0;
+    height: 20vh;
+}
+.mas-inside-col{
+    margin: 1px;
+}
+
+.mas-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #175;
+    border-radius: 10px;
+    margin-left: 2%;
+    width: 25%;
+}
+.mas-col-1{
+    width: 35%;
+}
+.mas-inside-col input{
+    display: inline-block;
+    margin-left: 2%;
+    padding: 1px 5px;
+    width: 60%;
+    outline: none;
+    border: none;
+}
+
+.mas-inside-col label{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+table{
+    display: inline-block;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 0% 1%;
+}
+
+th{
+    border-radius: 10px;
+}
+td{
+    padding: 0.5% 1%;
+}
+
+th{
+    padding: 0.5%;
+    background-color: #175;
+    color: #ffffff;
+    top: 0px;
+    width: 100vw;
+    height: 10px;
+}
+tr{
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(140, 211, 211);
+}
+tbody{
+    outline: none;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+
+.footer{
+    display: flex;
+    height: 20vh;
+    justify-content: flex-end;
+}
+.inside-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;    
+    padding: 15px;
+    margin-right: 3%;
+    width: 25vw;
+    background-color: whitesmoke;
+}
+.inside-footer-row{ 
+    display: flex;
+}
+.inside-footer-row:nth-child(odd){ 
+    background-color:lightgray;
+}
+.inside-footer-row label{ 
+    width: 50%;
+    font-size:larger;
+    font-style: bold;
+}
+
+.inside-footer-row .sec-col{ 
+    text-align: center;
+}
+.footer-col-3{
+    align-items: center;
+}
+.footer-col-3 button{
+    height: 5vh;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: lightseagreen;
+    box-shadow: 5px 5px 2px #175;
+    transition: all ease 0.2s;
+    color: white;
+}
+
+.footer-col-3 button:active{
+    background-color: rgb(11, 65, 62);
+    scale: 0.8;
+}
